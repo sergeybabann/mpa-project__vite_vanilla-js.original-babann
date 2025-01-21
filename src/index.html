@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин продуктов</title>
+    <!-- Подключение основного файла стилей -->
+    <link rel="stylesheet" href="./styles/main.scss">
+</head>
+<body>
+<!-- Шапка сайта -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <!-- Используем тег <img> для отображения логотипа -->
+            <a href="/">
+                <img id="logo" class="logo-img" alt="Malan" />
+            </a>
+
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Главная</a></li>
+            <li><a href="./pages/products.html">Продукты</a></li>
+            <li><a href="./pages/about.html">О нас</a></li>
+            <li><a href="pages/contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Основной контент -->
+<main>
+    <section class="hero">
+        <h1>Добро пожаловать в FoodStore</h1>
+        <p>Ваш лучший выбор для покупок свежих продуктов!</p>
+        <a href="./pages/products.html" class="btn">Перейти к продуктам</a>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Свежие продукты</h2>
+            <p>Мы гарантируем только самые качественные и свежие продукты.</p>
+        </div>
+        <div class="feature">
+            <h2>Быстрая доставка</h2>
+            <p>Доставляем прямо к вашему порогу в течение 24 часов.</p>
+        </div>
+        <div class="feature">
+            <h2>Лучшие цены</h2>
+            <p>Отличное качество по доступным ценам.</p>
+        </div>
+    </section>
+</main>
+
+<!-- Подвал -->
+<footer>
+    <p>&copy; 2025 FoodStore. Все права защищены.</p>
+</footer>
+
+<!-- Подключение основного файла JS -->
+<script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

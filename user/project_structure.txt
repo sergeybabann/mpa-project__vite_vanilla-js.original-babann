@@ -1,0 +1,27 @@
+project/
+├── public/                  # Статические файлы
+│   ├── images/              # Изображения для сайта
+│   └── favicon.ico          # Иконка сайта
+├── src/                     # Исходный код
+│   ├── assets/              # Стили и шрифты
+│   │   ├── styles/          # Sass файлы
+│   │   │   ├── _variables.scss # Переменные
+│   │   │   ├── _mixins.scss    # Миксины
+│   │   │   └── main.scss       # Главный файл стилей
+│   ├── pages/               # Страницы сайта
+│   │   ├── index.html       # Главная страница
+│   │   ├── about.html       # Страница о компании
+│   │   ├── catalog.html     # Каталог товаров
+│   │   └── contact.html     # Контакты
+│   ├── components/          # Компоненты сайта
+│   │   ├── header.html      # Шапка
+│   │   ├── footer.html      # Подвал
+│   │   └── product-card.html # Карточка товара
+│   ├── scripts/             # Скрипты
+│   │   ├── main.js          # Главный JS-файл
+│   │   ├── slider.js        # Слайдер (если нужен)
+│   │   └── form.js          # Логика форм
+├── vite.config.js           # Конфигурация Vite
+├── package.json             # Зависимости проекта
+├── README.md                # Документация
+└── index.html               # Входная точка разработки

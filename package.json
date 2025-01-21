@@ -1,0 +1,15 @@
+{
+  "name": "mpa-project__vite_vanilla-js.original-babann",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.83.4",
+    "vite": "^6.0.5"
+  }
+}

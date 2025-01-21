@@ -1,0 +1,15 @@
+@import './variables';
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    padding: 0.5rem 0;
+    color: $primary-color;
+  }
+}
